@@ -1,52 +1,32 @@
 <!DOCTYPE html>
-<!-- Declares the document type and version of HTML -->
-
 <html lang="en">
-<!-- The root of the HTML document, with language set to English -->
-
 <head>
-    <!-- Metadata and external links for the document -->
     <meta charset="UTF-8">
-    <!-- Character encoding set to UTF-8 for broad character support -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Ensures responsive design on mobile devices -->
-    <title>Malaika Nkosi - Personal Webpage</title>
-    <!-- Title displayed in the browser tab -->
+    <title>Malaika Nkosi- Personal Webpage</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Links an external CSS file for styling -->
 </head>
-
 <body>
-    <!-- Visible content of the web page -->
-
     <header>
-        <!-- Header section with name and photo -->
         <h1>Malaika Nkosi</h1>
         <img src="Me.jpg" alt="Your Photo">
-        <!-- Personal image with alternative text for accessibility -->
     </header>
 
     <section id="Bio">
-        <!-- Section for bio/summary info -->
         <h2>About Me</h2>
-        <p>I am a passionate software engineer and graphic designer...</p>
-        <p>My passion lies in merging technology with creativity...</p>
-        <p>In the future, I aspire to work on innovative projects...</p>
+        <p>I am a passionate software engineer and graphic designer with a keen interest in developing dynamic web applications. My experience spans various programming languages and design principles, allowing me to create user-friendly digital solutions.</p>
+        <p>My passion lies in merging technology with creativity. I find motivation in solving complex problems and continuously learning new skills to stay at the forefront of the tech industry.</p>
+        <p>In the future, I aspire to work on innovative projects that enhance user experience and contribute to meaningful causes.</p>
     </section>
 
     <section id="Contact-Details">
-        <!-- Section for contact information -->
         <h2>Contact Details</h2>
         <p><strong>Email:</strong> malaikankosi7@gmail.com</p>
         <p><strong>Phone:</strong> (076)2963982</p>
-        <p><strong>LinkedIn:</strong> 
-            <a href="https://www.linkedin.com/in/malaika-nkosi-9a9337177" target="_blank">LinkedIn Profile</a>
-            <!-- Opens LinkedIn profile in a new tab -->
-        </p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/malaika-nkosi-9a9337177" target="_blank">LinkedIn Profile</a></p>
     </section>
 
     <section id="Skills">
-        <!-- Section listing technical and soft skills -->
         <h2>Skills & Competencies</h2>
         <ul>
             <li>Web Development</li>
@@ -58,7 +38,6 @@
     </section>
 
     <section id="Education">
-        <!-- Section for education history -->
         <h2>Education</h2>
         <ul>
             <li>High School Diploma, Curro Aurora, 2017</li>
@@ -67,7 +46,6 @@
     </section>
 
     <section id="Work-Experience">
-        <!-- Section for work history -->
         <h2>Work Experience</h2>
         <ul>
             <li>Sales Rep at MacBan, 2021-2023</li>
@@ -76,10 +54,8 @@
     </section>
 
     <section id="Search-Form">
-        <!-- Section for searching the CV -->
         <h2>Search CV</h2>
         <form method="GET" action="#">
-            <!-- Sends search input to the server via GET request -->
             <label for="search">Search Keywords:</label>
             <input type="text" id="search" name="search" placeholder="Enter keywords...">
             <input type="submit" value="Search">
@@ -87,26 +63,19 @@
     </section>
 
     <section id="Contact-Form">
-        <!-- Contact form for users to send a message -->
         <h2>Contact Me</h2>
         <form method="POST" action="#">
-            <!-- Sends form data using POST (suitable for personal info) -->
             <label for="visitor-name">Your Name:</label>
             <input type="text" id="visitor-name" name="visitor-name" required>
-            <!-- Name field - required -->
 
             <label for="visitor-email">Your email:</label>
             <input type="email" id="visitor-email" name="visitor-email" required>
-            <!-- Email field - required -->
 
             <label for="message">Summary of your request, expect a quote in 48 Hours:</label>
             <textarea id="message" name="message" rows="5" required></textarea>
-            <!-- Message box for user input -->
 
             <input type="submit" value="Send Message">
-            <!-- Submit button -->
         </form>
     </section>
-
 </body>
 </html>
